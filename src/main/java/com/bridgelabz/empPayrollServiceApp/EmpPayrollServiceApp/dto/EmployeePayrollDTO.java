@@ -1,8 +1,10 @@
+/**
+ * EmployeePayrollDTO.java
+ */
+
 package com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto;
 
-
 public class EmployeePayrollDTO {
-
     public String name;
     public long salary;
 
@@ -13,6 +15,6 @@ public class EmployeePayrollDTO {
 
     @Override
     public String toString() {
-        return "name=" + name + ":salary=" + salary;
+        return "name="+name+":salary="+salary;
     }
 }
