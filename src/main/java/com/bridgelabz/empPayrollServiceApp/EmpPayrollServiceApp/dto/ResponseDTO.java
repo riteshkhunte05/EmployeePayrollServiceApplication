@@ -1,5 +1,5 @@
 /**
- * ResponseDTO.java
+ * ResponseDTO class.
  */
 package com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto;
 

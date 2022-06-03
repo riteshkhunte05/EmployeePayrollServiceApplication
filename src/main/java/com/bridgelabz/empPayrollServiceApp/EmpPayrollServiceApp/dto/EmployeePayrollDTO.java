@@ -1,9 +1,11 @@
-/**
- * EmployeePayrollDTO.java
- */
-
 package com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto;
 
+import lombok.Data;
+
+/**
+ * Employee Payroll DTO class.
+ */
+@Data
 public class EmployeePayrollDTO {
     public String name;
     public long salary;
