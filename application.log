@@ -1,0 +1,59 @@
+2022-06-04 18:18:31.211  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 5476 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-04 18:18:31.222 DEBUG 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 18:18:31.224  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-04 18:18:40.067  WARN 5476 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-04 18:18:42.052  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 11.99 seconds (JVM running for 13.214)
+2022-06-04 18:18:42.061  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
+2022-06-04 18:19:46.427  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 7868 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-04 18:19:46.433 DEBUG 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 18:19:46.436  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-04 18:19:57.475  WARN 7868 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-04 18:19:59.829  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 14.596 seconds (JVM running for 15.992)
+2022-06-04 18:19:59.838  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
+2022-06-04 18:21:07.400  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 10580 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-04 18:21:07.407 DEBUG 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 18:21:07.409  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-04 18:21:10.608  INFO 10580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-04 18:21:10.673  INFO 10580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
+2022-06-04 18:21:12.633  INFO 10580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-04 18:21:12.664  INFO 10580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 18:21:12.667  INFO 10580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-04 18:21:12.997  INFO 10580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 18:21:12.998  INFO 10580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5303 ms
+2022-06-04 18:21:14.280  INFO 10580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-04 18:21:15.148  INFO 10580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-04 18:21:16.277  INFO 10580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-04 18:21:17.163  WARN 10580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-04 18:21:17.711  INFO 10580 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-04 18:21:18.688  INFO 10580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-04 18:21:18.692  INFO 10580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-06-04 18:21:18.752  INFO 10580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-06-04 18:21:18.819  INFO 10580 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-06-04 18:21:19.161  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingGET_1
+2022-06-04 18:21:19.165  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingHEAD_1
+2022-06-04 18:21:19.169  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPOST_1
+2022-06-04 18:21:19.173  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPUT_1
+2022-06-04 18:21:19.176  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPATCH_1
+2022-06-04 18:21:19.180  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingDELETE_1
+2022-06-04 18:21:19.183  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingOPTIONS_1
+2022-06-04 18:21:19.188  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingTRACE_1
+2022-06-04 18:21:19.196  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingGET_2
+2022-06-04 18:21:19.200  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingHEAD_2
+2022-06-04 18:21:19.207  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPOST_2
+2022-06-04 18:21:19.214  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPUT_2
+2022-06-04 18:21:19.220  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPATCH_2
+2022-06-04 18:21:19.223  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingDELETE_2
+2022-06-04 18:21:19.227  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingOPTIONS_2
+2022-06-04 18:21:19.231  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingTRACE_2
+2022-06-04 18:21:19.241  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingGET_3
+2022-06-04 18:21:19.333  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 13.166 seconds (JVM running for 14.419)
+2022-06-04 18:21:19.343  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
+2022-06-04 18:21:53.110  INFO 10580 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-04 18:21:53.170  INFO 10580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-04 18:21:53.195  INFO 10580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-04 18:21:59.885  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 12300 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-04 18:21:59.895 DEBUG 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-04 18:21:59.898  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-04 18:22:09.444  WARN 12300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-04 18:22:11.405  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 12.888 seconds (JVM running for 14.415)
+2022-06-04 18:22:11.415  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
