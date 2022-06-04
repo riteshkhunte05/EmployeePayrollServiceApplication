@@ -3,15 +3,12 @@ package com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.model;
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto.EmployeePayrollDTO;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 /***********************************************************************************************************************
  * Class :- Employee Payroll Data.
  * @author Ritesh
  **********************************************************************************************************************/
-@Getter
-@Setter
+@Data
 public class EmployeePayrollData {
     private int employeeId;
     private String name;
