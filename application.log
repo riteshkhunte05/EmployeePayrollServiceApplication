@@ -161,3 +161,11 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
 	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
 
+2022-06-05 11:44:01.535  INFO 444 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 444 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-05 11:44:01.544 DEBUG 444 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-05 11:44:01.546  INFO 444 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : The following 1 profile is active: "DEV"
+2022-06-05 11:44:13.742  WARN 444 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-05 11:44:16.345  INFO 444 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 16.323 seconds (JVM running for 17.782)
+2022-06-05 11:44:16.356  INFO 444 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll Application started
+2022-06-05 15:35:40.858  WARN 444 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h29s191ms105µs684ns).
+2022-06-05 17:19:41.868  WARN 444 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44m12s563ms237µs425ns).
