@@ -1,59 +1,163 @@
-2022-06-04 18:18:31.211  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 5476 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
-2022-06-04 18:18:31.222 DEBUG 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-04 18:18:31.224  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
-2022-06-04 18:18:40.067  WARN 5476 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-04 18:18:42.052  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 11.99 seconds (JVM running for 13.214)
-2022-06-04 18:18:42.061  INFO 5476 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
-2022-06-04 18:19:46.427  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 7868 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
-2022-06-04 18:19:46.433 DEBUG 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-04 18:19:46.436  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
-2022-06-04 18:19:57.475  WARN 7868 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-04 18:19:59.829  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 14.596 seconds (JVM running for 15.992)
-2022-06-04 18:19:59.838  INFO 7868 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
-2022-06-04 18:21:07.400  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 10580 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
-2022-06-04 18:21:07.407 DEBUG 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-04 18:21:07.409  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
-2022-06-04 18:21:10.608  INFO 10580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-06-04 18:21:10.673  INFO 10580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
-2022-06-04 18:21:12.633  INFO 10580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-06-04 18:21:12.664  INFO 10580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-06-04 18:21:12.667  INFO 10580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-04 18:21:12.997  INFO 10580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-06-04 18:21:12.998  INFO 10580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5303 ms
-2022-06-04 18:21:14.280  INFO 10580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-06-04 18:21:15.148  INFO 10580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-06-04 18:21:16.277  INFO 10580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-06-04 18:21:17.163  WARN 10580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-04 18:21:17.711  INFO 10580 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2022-06-04 18:21:18.688  INFO 10580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-06-04 18:21:18.692  INFO 10580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2022-06-04 18:21:18.752  INFO 10580 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2022-06-04 18:21:18.819  INFO 10580 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2022-06-04 18:21:19.161  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingGET_1
-2022-06-04 18:21:19.165  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingHEAD_1
-2022-06-04 18:21:19.169  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPOST_1
-2022-06-04 18:21:19.173  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPUT_1
-2022-06-04 18:21:19.176  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPATCH_1
-2022-06-04 18:21:19.180  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingDELETE_1
-2022-06-04 18:21:19.183  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingOPTIONS_1
-2022-06-04 18:21:19.188  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingTRACE_1
-2022-06-04 18:21:19.196  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingGET_2
-2022-06-04 18:21:19.200  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingHEAD_2
-2022-06-04 18:21:19.207  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPOST_2
-2022-06-04 18:21:19.214  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPUT_2
-2022-06-04 18:21:19.220  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingPATCH_2
-2022-06-04 18:21:19.223  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingDELETE_2
-2022-06-04 18:21:19.227  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingOPTIONS_2
-2022-06-04 18:21:19.231  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingTRACE_2
-2022-06-04 18:21:19.241  INFO 10580 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getEmployeePayrollDataUsingGET_3
-2022-06-04 18:21:19.333  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 13.166 seconds (JVM running for 14.419)
-2022-06-04 18:21:19.343  INFO 10580 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
-2022-06-04 18:21:53.110  INFO 10580 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-06-04 18:21:53.170  INFO 10580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-06-04 18:21:53.195  INFO 10580 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-06-04 18:21:59.885  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 12300 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
-2022-06-04 18:21:59.895 DEBUG 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
-2022-06-04 18:21:59.898  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : No active profile set, falling back to 1 default profile: "default"
-2022-06-04 18:22:09.444  WARN 12300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-06-04 18:22:11.405  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 12.888 seconds (JVM running for 14.415)
-2022-06-04 18:22:11.415  INFO 12300 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App started
+2022-06-05 10:55:09.204  INFO 3708 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 3708 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-05 10:55:09.247 DEBUG 3708 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-05 10:55:09.250  INFO 3708 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : The following 1 profile is active: "DEV"
+2022-06-05 10:55:23.573  WARN 3708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-05 10:55:25.366  WARN 3708 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2022-06-05 10:55:25.729 ERROR 3708 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.20.jar:5.3.20]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.EmpPayrollServiceAppApplication.main(EmpPayrollServiceAppApplication.java:20) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112) ~[springfox-spi-2.9.2.jar:null]
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109) ~[springfox-spi-2.9.2.jar:null]
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37) ~[guava-20.0.jar:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1441) ~[na:na]
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855) ~[guava-20.0.jar:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135) ~[springfox-spring-web-2.9.2.jar:null]
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750) ~[guava-20.0.jar:na]
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47) ~[guava-20.0.jar:na]
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47) ~[guava-20.0.jar:na]
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52) ~[guava-20.0.jar:na]
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50) ~[guava-20.0.jar:na]
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249) ~[guava-20.0.jar:na]
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209) ~[guava-20.0.jar:na]
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614) ~[guava-20.0.jar:na]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167) ~[springfox-spring-web-2.9.2.jar:null]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.20.jar:5.3.20]
+	... 14 common frames omitted
+
+2022-06-05 11:05:38.351  INFO 1424 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 1424 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-05 11:05:38.362 DEBUG 1424 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-05 11:05:38.365  INFO 1424 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : The following 1 profile is active: "DEV"
+2022-06-05 11:05:51.885  WARN 1424 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-05 11:05:54.008  WARN 1424 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2022-06-05 11:05:54.539 ERROR 1424 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.20.jar:5.3.20]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.0.jar:2.7.0]
+	at com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.EmpPayrollServiceAppApplication.main(EmpPayrollServiceAppApplication.java:20) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:112) ~[springfox-spi-2.9.2.jar:null]
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:109) ~[springfox-spi-2.9.2.jar:null]
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:37) ~[guava-20.0.jar:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1441) ~[na:na]
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:855) ~[guava-20.0.jar:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:57) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:138) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:135) ~[springfox-spring-web-2.9.2.jar:null]
+	at com.google.common.collect.Iterators$7.transform(Iterators.java:750) ~[guava-20.0.jar:na]
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47) ~[guava-20.0.jar:na]
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:47) ~[guava-20.0.jar:na]
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:52) ~[guava-20.0.jar:na]
+	at com.google.common.collect.MultitransformedIterator.hasNext(MultitransformedIterator.java:50) ~[guava-20.0.jar:na]
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:249) ~[guava-20.0.jar:na]
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:209) ~[guava-20.0.jar:na]
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:614) ~[guava-20.0.jar:na]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:111) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:96) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167) ~[springfox-spring-web-2.9.2.jar:null]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.20.jar:5.3.20]
+	... 14 common frames omitted
+
+2022-06-05 11:14:15.361  INFO 11048 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 11048 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-05 11:14:15.391 DEBUG 11048 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-05 11:14:15.393  INFO 11048 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : The following 1 profile is active: "DEV"
+2022-06-05 11:14:27.882  WARN 11048 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-05 11:14:30.354  INFO 11048 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 17.092 seconds (JVM running for 18.718)
+2022-06-05 11:14:30.365  INFO 11048 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll Application started
+2022-06-05 11:17:11.134 ERROR 11048 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0] with root cause
+
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248) ~[na:na]
+	at java.base/java.util.Objects.checkIndex(Objects.java:372) ~[na:na]
+	at java.base/java.util.ArrayList.get(ArrayList.java:459) ~[na:na]
+	at com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.services.EmployeePayrollService.getEmployeePayrollDataById(EmployeePayrollService.java:37) ~[classes/:na]
+	at com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.controllers.EmployeePayrollController.getEmployeePayrollData(EmployeePayrollController.java:47) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
