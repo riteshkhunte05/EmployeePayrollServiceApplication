@@ -25,6 +25,11 @@ public class EmpPayrollServiceAppApplication {
 				context.getEnvironment().getProperty("spring.datasource.username"));
 
 	}
+
+	/*
+	 * Method :- Method to Configure Swagger.
+	 */
+
 	@Bean
 	public Docket productApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
