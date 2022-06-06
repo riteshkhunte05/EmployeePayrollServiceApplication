@@ -4,6 +4,7 @@ import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto.EmployeePayr
 
 import lombok.Data;
 
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -11,21 +12,35 @@ import java.util.List;
  * Class :- Employee Payroll Data.
  * @author Ritesh
  **********************************************************************************************************************/
-@Data
-public class EmployeePayrollData {
+@Entity
+@Table(name = "employee_payroll")
+public @Data class EmployeePayrollData {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "emp_Id")
     private int employeeId;
+    @Column(name = "name")
     private String name;
     private long salary;
     private String gender;
     private LocalDate startDate;
     private String note;
     private String profilePic;
+
+    @ElementCollection
+    @CollectionTable(name = "employee_department", joinColumns = @JoinColumn(name ="Id"))
+    @Column(name = "departments")
     private List<String> departments;
 
     public EmployeePayrollData(){}
 
-    public EmployeePayrollData(int empId, EmployeePayrollDTO employeePayrollDTO){
-        this.employeeId=empId;
+    public EmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
+        this.updateEmployeePayollData(employeePayrollDTO);
+    }
+
+    public void updateEmployeePayollData( EmployeePayrollDTO employeePayrollDTO) {
+
+        this.employeeId=employeeId;
         this.name=employeePayrollDTO.name;
         this.salary=employeePayrollDTO.salary;
         this.gender = employeePayrollDTO.gender;
