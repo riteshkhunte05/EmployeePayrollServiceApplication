@@ -12,3 +12,10 @@
 2022-06-07 00:46:35.091  INFO 8980 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 16.1 seconds (JVM running for 17.289)
 2022-06-07 00:46:35.101  INFO 8980 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App Started in DEV Environment
 2022-06-07 00:46:35.106  INFO 8980 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll DB User is root
+2022-06-07 01:39:27.561  INFO 9416 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Starting EmpPayrollServiceAppApplication using Java 11.0.15 on DESKTOP-F0VCATA with PID 9416 (E:\CFP\SpringBootProjects\EmpPayrollServiceApp\target\classes started by Ritesh in E:\CFP\SpringBootProjects\EmpPayrollServiceApp)
+2022-06-07 01:39:27.566 DEBUG 9416 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-07 01:39:27.568  INFO 9416 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : The following 1 profile is active: "DEV"
+2022-06-07 01:39:43.503  WARN 9416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-07 01:39:45.863  INFO 9416 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Started EmpPayrollServiceAppApplication in 19.819 seconds (JVM running for 21.406)
+2022-06-07 01:39:45.874  INFO 9416 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll App Started in DEV Environment
+2022-06-07 01:39:45.880  INFO 9416 --- [main] c.b.e.E.EmpPayrollServiceAppApplication  : Employee Payroll DB User is root
