@@ -3,6 +3,9 @@ package com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.services;
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto.EmployeePayrollDTO;
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.exceptions.EmployeePayrollException;
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.model.EmployeePayrollData;
+import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.repository.IEmployeePayrollRepository;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,9 +16,14 @@ import java.util.List;
 
  **********************************************************************************************************************/
 @Service
+@Slf4j
 public class EmployeePayrollService implements IEmployeePayrollService {
 
-    private final List<EmployeePayrollData> empDataList = new ArrayList<>();
+    @Autowired
+    private IEmployeePayrollRepository employeePayrollRepository;
+    private List<EmployeePayrollData> empDataList = new ArrayList<>();
+
+
 
     /**
      * Method :- Method to Get All Employee Payroll Data.
@@ -50,11 +58,13 @@ public class EmployeePayrollService implements IEmployeePayrollService {
      * @return Returning Employee Payroll Data.
      */
     @Override
-    public EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
+    public EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO empPayrollDTO) {
         EmployeePayrollData empData = null;
-        empData = new EmployeePayrollData(empDataList.size() + 1, employeePayrollDTO);
+        empData = new EmployeePayrollData(empPayrollDTO);
         empDataList.add(empData);
-        return empData;
+        log.debug("Emp Data: " +empData.toString());
+        empDataList.add(empData);
+        return employeePayrollRepository.save(empData);
     }
 
     /**
@@ -78,6 +88,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
      */
     @Override
     public void deleteEmployeePayrollData(int empId) {
+
         empDataList.remove(empId - 1);
     }
 }
