@@ -32,7 +32,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
      */
     @Override
     public List<EmployeePayrollData> getEmployeePayrollData() {
-        return empDataList;
+        return employeePayrollRepository.findAll();
     }
 
     /**
@@ -43,10 +43,10 @@ public class EmployeePayrollService implements IEmployeePayrollService {
      */
     @Override
     public EmployeePayrollData getEmployeePayrollDataById(int empId) {
-        return  empDataList.stream()
-                .filter(empData->empData.getEmployeeId()==empId)
-                .findFirst()
-                .orElseThrow(()->new EmployeePayrollException("Employee Not Found"));
+        return employeePayrollRepository
+                .findById(empId)
+                .orElseThrow(() -> new EmployeePayrollException("Employee with EmpId" + empId
+                        + " Doesn't Exists...!"));
     }
 
 
@@ -61,9 +61,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
     public EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO empPayrollDTO) {
         EmployeePayrollData empData = null;
         empData = new EmployeePayrollData(empPayrollDTO);
-        empDataList.add(empData);
-        log.debug("Emp Data: " +empData.toString());
-        empDataList.add(empData);
+        log.debug("Employee Data: " + empData.toString());
         return employeePayrollRepository.save(empData);
     }
 
@@ -74,12 +72,10 @@ public class EmployeePayrollService implements IEmployeePayrollService {
      * @return Returning updated Employee Payroll Data.
      */
     @Override
-    public EmployeePayrollData updateEmployeePayrollData(int empId, EmployeePayrollDTO employeePayrollDTO) {
+    public EmployeePayrollData updateEmployeePayrollData(int empId, EmployeePayrollDTO empPayrollDTO) {
         EmployeePayrollData empData = this.getEmployeePayrollDataById(empId);
-        empData.setName(employeePayrollDTO.name);
-        empData.setSalary(employeePayrollDTO.salary);
-        empDataList.set(empId - 1, empData);
-        return empData;
+        empData.updateEmployeePayollData(empPayrollDTO);
+        return employeePayrollRepository.save(empData);
     }
 
     /** Method :- Method to Delete Employee Payroll Data.
@@ -88,7 +84,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
      */
     @Override
     public void deleteEmployeePayrollData(int empId) {
-
-        empDataList.remove(empId - 1);
+        EmployeePayrollData empData = this.getEmployeePayrollDataById(empId);
+        employeePayrollRepository.delete(empData);
     }
 }
