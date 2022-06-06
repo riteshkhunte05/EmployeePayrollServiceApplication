@@ -4,6 +4,7 @@ import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto.EmployeePayr
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto.ResponseDTO;
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.model.EmployeePayrollData;
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.services.IEmployeePayrollService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,12 +19,11 @@ import java.util.List;
  **********************************************************************************************************************/
 
 @RestController
+@Slf4j
 public class EmployeePayrollController
 {
-
     @Autowired
     private IEmployeePayrollService employeePayrollService;
-
     /**
      * Method :- Method to Get the Employee Payroll Data.
      *
