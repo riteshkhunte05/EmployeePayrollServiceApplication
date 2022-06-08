@@ -24,7 +24,6 @@ public class EmployeePayrollService implements IEmployeePayrollService {
     private List<EmployeePayrollData> empDataList = new ArrayList<>();
 
 
-
     /**
      * Method :- Method to Get All Employee Payroll Data.
      *
@@ -49,7 +48,16 @@ public class EmployeePayrollService implements IEmployeePayrollService {
                         + " Doesn't Exists...!"));
     }
 
-
+    /**
+     * Method :- Method to Get  Employee Payroll Data By Department.
+     *
+     * @param Department :- Passing Department As Input.
+     * @return Returning Employee Payroll Data.
+     */
+    @Override
+    public List<EmployeePayrollData> getEmployeesPayrollDataByDepartment(String department) {
+        return employeePayrollRepository.findEmployeesByDepartment(department);
+    }
 
     /**
      * Method :- Method to Create Employee Payroll Data.
