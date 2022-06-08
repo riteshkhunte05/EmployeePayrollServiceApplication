@@ -17,7 +17,7 @@ public @ToString class EmployeePayrollDTO {
     public String name;
     @Min(value = 500, message = "Min wage should be more than 500")
     public long salary;
-    @JsonFormat(pattern = "dd MMM yyyy")
+    @JsonFormat(pattern = "dd MM yyyy")
     @NotNull(message = "Startdate should not be empty")
     @PastOrPresent(message = "startDate shuld be past or todays date")
     public LocalDate startDate;
