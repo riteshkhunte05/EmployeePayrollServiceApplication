@@ -7,6 +7,8 @@ import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.repository.IEmpl
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,7 +53,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
     /**
      * Method :- Method to Get  Employee Payroll Data By Department.
      *
-     * @param Department :- Passing Department As Input.
+     * @param department :- Passing Department As Input.
      * @return Returning Employee Payroll Data.
      */
     @Override
@@ -59,10 +61,42 @@ public class EmployeePayrollService implements IEmployeePayrollService {
         return employeePayrollRepository.findEmployeesByDepartment(department);
     }
 
+    /** Method :- Method to Get Employee Payroll Data By Salary.
+     *
+     * @param salary :- Passing salary As Input.
+     * @return :- Returning Employee Payroll Data who's Salary is Same.
+     */
+    @Override
+    public List<EmployeePayrollData> getEmployeePayrollDataBySalary(long salary) {
+        return employeePayrollRepository.findEmployeesBySalary(salary);
+    }
+
+    /** Method :- Method to Get Employee Payroll Data By Gender.
+     *
+     * @param gender :- Passing gender As Input.
+     * @return :- Returning Employee Payroll Data who's gender is Same.
+     */
+    @Override
+    public List<EmployeePayrollData> getEmployeePayrollDataByGender(String gender) {
+        return  employeePayrollRepository.findEmployeesByGender(gender);
+    }
+
+    /** Method :- Method to Get Employee Payroll Data By StartDate.
+     *
+     * @param startDate :- Passing startDate As Input.
+     * @return :- Returning Employee Payroll Data who's startDate is Same.
+     */
+    @Override
+    public List<EmployeePayrollData> getEmployeePayrollDataByStartDate(LocalDate startDate) {
+        return employeePayrollRepository.findEmployeesByStartDate(startDate);
+    }
+
+
+
     /**
      * Method :- Method to Create Employee Payroll Data.
      *
-     * @param employeePayrollDTO :- Passing employeePayrollDTO As Input.
+     * @param empPayrollDTO :- Passing employeePayrollDTO As Input.
      * @return Returning Employee Payroll Data.
      */
     @Override
@@ -76,7 +110,7 @@ public class EmployeePayrollService implements IEmployeePayrollService {
     /**
      * Method :- Method to Update Employee Payroll Data.
      * @param empId :- Passing empId As Input.
-     * @param employeePayrollDTO :- Passing employeePayrollDTO As Input.
+     * @param empPayrollDTO :- Passing employeePayrollDTO As Input.
      * @return Returning updated Employee Payroll Data.
      */
     @Override

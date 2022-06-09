@@ -4,6 +4,7 @@ import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.dto.EmployeePayr
 import com.bridgelabz.empPayrollServiceApp.EmpPayrollServiceApp.model.EmployeePayrollData;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 
 /***********************************************************************************************************************
@@ -17,6 +18,13 @@ public interface IEmployeePayrollService {
 
     EmployeePayrollData getEmployeePayrollDataById(int empId);
     List<EmployeePayrollData> getEmployeesPayrollDataByDepartment(String department);
+
+    List<EmployeePayrollData> getEmployeePayrollDataBySalary(long salary);
+
+    List<EmployeePayrollData> getEmployeePayrollDataByGender(String gender);
+
+    List<EmployeePayrollData> getEmployeePayrollDataByStartDate(LocalDate startDate);
+
 
 
     EmployeePayrollData createEmployeePayrollData(EmployeePayrollDTO empPayrollDTO);
